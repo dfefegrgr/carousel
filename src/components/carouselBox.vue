@@ -73,7 +73,7 @@ export default {
       },timeoutDuration.value)
     }
     //执行自动播放
-    if(autoPlayEnable){
+    if(autoPlayEnable.value){
       autoPlay()
     }
     //onMounted(钩子），第一次渲染时做什么

@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import carousel from "@/components/Carousel";
-import slide from "@/components/Slide";
+import carousel from "@/components/carouselBox";
+import slide from "@/components/slideBox";
 export default {
   name: 'HomeView',
   components: {carousel,slide},

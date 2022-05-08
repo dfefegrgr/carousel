@@ -5,5 +5,4 @@ module.exports = defineConfig({
   publicPath:'./',
   runtimeCompiler: true,
   transpileDependencies: true,
-  lintOnSave:false
 })
